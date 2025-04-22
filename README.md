@@ -31,3 +31,13 @@ More info [here](https://www.playframework.com/documentation/1.4.x/ide)
 If you need some help with development you can visit official documentation site
 
 https://www.playframework.com/documentation/1.4.x/home
+
+
+## configuración segura
+
+1. Crea un archivo `.env` en la raíz del proyecto a partir de `.env.example`.
+2. Define las variables necesarias.
+3. Para ejecutar el proyecto
+    - `export $(cat .env | xargs)`
+    - `play run`
+
