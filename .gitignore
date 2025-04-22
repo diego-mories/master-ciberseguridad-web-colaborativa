@@ -1,4 +1,7 @@
 .DS_Store
+# Añadir archivos de configuración para nuestro commit
+.env
+conf/application.conf
 
 # Ignore Play! working directory #
 db
